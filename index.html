@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <title>Stress test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <div id="title">
+          <h1>Stress test</h1>
+          <span class="click">Click here to start</span>
+        </div>
+        <div id="survey">
+          <form>
+            <div class="form-group">
+              <p>Check all that apply in terms of recent daily life</p><br>
+              <input type="checkbox" name="warning-signs" value="1"> Forgetful.<br>
+              <input type="checkbox" name="warning-signs" value="1"> Overwhelmed/Burned out.<br>
+              <input type="checkbox" name="warning-signs" value="1"> Feel stressed.<br>
+              <input type="checkbox" name="warning-signs" value="1"> Feel bad.<br>
+              <input type="checkbox" name="warning-signs" value="20"> Seeing paranormal activity (not the movie...)<br>
+              <p>Any recent health issues?</p><br>
+              <input type="checkbox" name="health-symptoms" value="1"> loss of sleep<br>
+              <input type="checkbox" name="health-symptoms" value="1"> Sick.<br>
+              <input type="checkbox" name="health-symptoms" value="1"> Actually depressed.<br>
+              <input type="checkbox" name="health-symptoms" value="1"> High blood pressure.<br>
+              <button type="button" name="button">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div id="end">
+          <p>Your diagnosis: <span id="result"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

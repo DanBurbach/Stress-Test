@@ -1,0 +1,11 @@
+.click:hover {
+  cursor: crosshair;
+  color: blue;
+  text-decoration: underline;
+}
+#title, #end {
+  text-align: center;
+}
+#survey, #end {
+  display: none;
+}
